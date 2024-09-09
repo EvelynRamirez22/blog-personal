@@ -1,0 +1,100 @@
+/* Estilos generales para toda la aplicación */
+.App {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #ffffff; /* Fondo blanco */
+}
+
+/* Estilos del Header */
+header {
+  background-color: #6a1b9a; /* Violeta oscuro */
+  color: white;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+/* Estilos del botón para iniciar sesión */
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 1em;
+  color: white;
+  background-color: #7b1fa2; /* Violeta más claro */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  background-color: #9c4dff; /* Violeta más claro al pasar el mouse */
+}
+
+/* Estilos del MainContent (Footer en tu código) */
+footer {
+  background-color: #6a1b9a; /* Mismo tono que el header */
+  color: white;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+/* Estilos del Post */
+article {
+  background-color: #fafafa; /* Fondo ligeramente gris para los artículos */
+  border: 1px solid #e0e0e0; /* Borde gris claro */
+  border-radius: 8px;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 900px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+article h2 {
+  margin-top: 0;
+  font-size: 2em;
+  color: #6a1b9a; /* Violeta oscuro para los títulos */
+}
+
+article p {
+  line-height: 1.6;
+  color: #555; /* Color de texto más oscuro para mejor legibilidad */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Estilos para mejorar la visualización en dispositivos móviles */
+@media (max-width: 600px) {
+  header h1 {
+      font-size: 1.8em;
+  }
+
+  button {
+      font-size: 0.9em;
+      padding: 8px 16px;
+  }
+
+  footer {
+      position: static;
+      padding: 20px;
+  }
+}
+
+
