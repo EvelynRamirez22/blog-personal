@@ -1,7 +1,7 @@
 import Header from "./components/Header";
 import Footer from "./components/Footer"; // Asegúrate de que Footer sea importado correctamente
 import { Post } from "./components/Post";
-import './App.css'; 
+import "./App.css";
 import { useEffect, useState } from "react";
 import supabase from "./lib/helper/supabaseClient";
 
@@ -36,11 +36,11 @@ export default function App() {
     <>
       <Header />
       <button onClick={handleLogin}>Iniciar sesión con Github</button>
-      <Post 
-        titulo={'Título de ejemplo'} 
+      <Post
+        titulo={"Título de ejemplo"}
         description={"Descripción foto"}
         link={"IMG-20240903-WA0030.jpg"}
-        parrafo={"Este es el párrafo de la foto"} 
+        parrafo={"Este es el párrafo de la foto"}
       />
       <Footer />
     </>

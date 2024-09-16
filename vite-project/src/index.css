@@ -66,3 +66,23 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/* Estilos del botón para iniciar sesión */
+button {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 1em;
+  color: white;
+  background-color: #7b1fa2; /* Violeta más claro */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  background-color: #9c4dff; /* Violeta más claro al pasar el mouse */
+}
